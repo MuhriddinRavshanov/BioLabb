@@ -32,6 +32,7 @@ button:hover {
     color: orangered;
     background-color: white;
     border: 2px solid orangered;
+    transform: scale(0.95);
 }
 
 hr {
@@ -626,6 +627,10 @@ hr {
     width: 25px;
 }
 
+.footer .footer-lists .footer-items a img:hover {
+    transform: scale(1.5);
+}
+
 .footer .footer-item:first-child {
     font-style: normal;
     font-weight: 540;
@@ -643,4 +648,7 @@ hr {
 .footer .footer-item a img {
     margin-right: 5px;
     width: 20px;
+    transition: 0.3s;
 }
+
+
