@@ -85,7 +85,7 @@ hr {
 
 .nav .nav-list .nav-item a:hover {
     border: 1px solid rgba(255, 68, 0, 0.534);
-    color: orangered;
+    color: #e76d08;
 }
 
 .active {
@@ -205,6 +205,63 @@ hr {
     opacity: 0.8;
 }
 
+/* ----------content start--------------- */
+.content {
+    padding: 50px 0px;
+}
+
+.content hr {
+    background-color: #F3974E;
+    border: 1px solid #F3974E;
+}
+
+.content .content-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.content .content-list .content-item {
+    width: 265px;
+    margin-top: 40px;
+    border: 1px solid #71c0c63f;
+    border-radius: 16px;
+    padding: 15px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.content .content-list .content-item:hover {
+    border: 1px solid #ffffff;
+    box-shadow: 0px 1px 13px -4px black;
+}
+
+.content .content-list .content-item:hover h2 {
+    color: #e76d08;
+}
+
+.content .content-list .content-item img {
+    width: 100%;
+}
+
+.content .content-list .content-item h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #020105;
+    margin-bottom: 10px;
+}
+
+.content .content-list .content-item p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #020105;
+    opacity: 0.8;
+}
 
 /* -------------section start--------------- */
 
