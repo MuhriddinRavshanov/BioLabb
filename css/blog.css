@@ -121,8 +121,86 @@ hr {
     display: block;
 }
 
+/* ---------------box start------------------- */
 
+.box {
+    padding: 50px 0px;
+}
 
+.box hr {
+    background-color: #F3974E;
+    border: 1px solid #F3974E;
+}
+
+.box .box-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.box .box-list {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box .box-list a {
+    width: 32%;
+    border-radius: 24px;
+    border: 1px solid white;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.box .box-list .box-item {
+    padding: 10px;
+}
+
+.box .box-list a:hover {
+    box-shadow: 0px 1px 13px -4px black;
+}
+
+.box .box-list a:hover b{
+    color: #e76d08;
+}
+
+.box-list .box-item img {
+    border-radius: 24px;
+    width: 100%;
+}
+
+.box-list .box-item p {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 12px 0px;
+    opacity: 0.8;
+}
+
+.box-list .box-item p i {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.box-list .box-item p i span {
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    margin-right: 20px;
+}
+
+.box-list .box-item b {
+    font-style: normal;
+    font-weight: 550;
+    font-size: 17px;
+    line-height: 23px;
+    color: #020105;
+    transition: 0.3s;
+}
 
 /* -----------------form start------------------ */
 
