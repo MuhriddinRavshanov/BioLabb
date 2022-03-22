@@ -72,6 +72,8 @@ hr {
 }
 
 .nav .nav-list .nav-item a {
+    display: flex;
+    align-items: center;
     padding: 5px 15px;
     margin-left: 10px;
     font-style: normal;
@@ -83,6 +85,10 @@ hr {
     transition: 0.5s;
 }
 
+.nav .nav-list .nav-item a img {
+    margin-left: 5px;
+}
+
 .nav .nav-list .nav-item a:hover {
     border: 1px solid rgba(255, 68, 0, 0.534);
     color: #e76d08;
@@ -90,6 +96,24 @@ hr {
 
 .nav .nav-list .nav-item .active {
     color: #e76d08 !important;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    transition: 0.3s;
+  }
+  
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 
